@@ -1,0 +1,14 @@
+ONLY gguf models supported.
+
+To start from cli:
+cd /usr/loca/bin/GPT4All/bin
+./chat 
+
+or from cli:
+LD_LIBRARY_PATH=/usr/local/bin/GPT4All/bin/ /usr/local/bin/GPT4All/bin/chat
+
+or from menu;office (XFCE,PLASMA,GNOME,etc)
+
+
+Its a full GPT4All installation, not only chat, lot of tips exist in /usr/local/bin/GPT4All speciall for python guys...
+

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+       |-----handy-ruler------------------------------------------------------|
+gpt4all: gpt4all (A free-to-use, locally running, privacy-aware chatbot)
+gpt4all:
+gpt4all: A free-to-use, locally running, privacy-aware chatbot
+gpt4all: No GPU or internet required.
+gpt4all: Explore what GPT4All can do. On your own hardware.
+gpt4all: 
+gpt4all: 
+gpt4all:
+gpt4all: GPT4All's Capabilities
+gpt4all: https://github.com/nomic-ai/gpt4all
+gpt4all:

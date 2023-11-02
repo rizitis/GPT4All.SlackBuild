@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+PATH= /usr/local/bin/GPT4All/bin
+Exec=sh -c "LD_LIBRARY_PATH=/usr/local/bin/GPT4All/bin/ /usr/local/bin/GPT4All/bin/chat $SHELL"
+Name=GPT4All
+Icon=/usr/share/GPT4All/icons/48x48/logo-48.png
+Name[en_US]=GPT4All
+StartupNotify=true
+Categories=Office;InstantMessaging;
