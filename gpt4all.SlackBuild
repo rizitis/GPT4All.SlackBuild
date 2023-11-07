@@ -31,7 +31,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=gpt4all			
 VERSION=${VERSION:-2.5.2}	
-BUILD=${BUILD:-5}
+BUILD=${BUILD:-1}
 TAG=${TAG:-_rtz}
 PKGTYPE=${PKGTYPE:-txz}
 JOBS=-j$(getconf _NPROCESSORS_ONLN)
