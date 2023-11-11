@@ -1,7 +1,7 @@
 ONLY gguf models supported.
 
 To start from cli:
-cd /usr/loca/bin/GPT4All/bin
+cd /usr/local/bin/GPT4All/bin
 ./chat 
 
 or from cli:
