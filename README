@@ -10,7 +10,7 @@ Source: https://github.com/nomic-ai/gpt4all/
 
 TIPS:
 1. Personally I have cloned https://github.com/ggerganov/llama.cpp
-To build it with with only CPU just run
+To build it for only CPU just run
 make LLAMA_OPENBLAS=1 
 Everything else you might need is in README...
 
