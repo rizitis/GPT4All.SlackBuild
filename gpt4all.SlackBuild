@@ -3,6 +3,7 @@
 # Slackware build script for gpt4all
 
 # rizitis 30/10/2023 <rizitis@gmail.com>
+# updated 12/01/2024
 # You are free to maintain it in the SBo way and simply remove my name, no copyrights ;)  #
 
 
@@ -23,15 +24,11 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-wget -O gpt4all-2.5.4.tar.gz https://github.com/nomic-ai/gpt4all/archive/refs/tags/v2.5.4.tar.gz
-wget -O llama.cpp-b1350.tar.gz https://github.com/nomic-ai/llama.cpp/archive/refs/tags/b1350.tar.gz
-llama=llama.cpp-b1350
-tar xvf "$llama".tar.gz
 
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=gpt4all			
-VERSION=${VERSION:-2.5.4}	
+VERSION=${VERSION:-2.6.1}	
 BUILD=${BUILD:-1}
 TAG=${TAG:-_rtz}
 PKGTYPE=${PKGTYPE:-txz}
@@ -74,11 +71,10 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$PRGNAM-$VERSION.tar.gz
-cd $PRGNAM-$VERSION/gpt4all-chat
+rm -rf $PRGNAM
+git clone --recurse-submodules https://github.com/nomic-ai/gpt4all
+cd $PRGNAM/gpt4all-chat
 sed -i '/CMAKE_INSTALL_PREFIX/d' CMakeLists.txt
-mv $CWD/"$llama"/* ../gpt4all-backend/llama.cpp-mainline
 
 chown -R root:root .
 find -L . \
@@ -98,7 +94,7 @@ cd build
   make "$JOBS"
 make install/strip DESTDIR=$PKG
 
-cd $TMP/$PRGNAM-$VERSION
+cd $TMP/$PRGNAM
 
 rm -r $PKG/usr/local/bin/GPT4All/bin
 cp -R gpt4all-chat/build/bin $PKG/usr/local/bin/GPT4All/
@@ -114,7 +110,7 @@ find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | gr
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 find $PKG -name perllocal.pod -o -name ".packlist" -o -name "*.bs" | xargs rm -f || true
 
-cd $TMP/$PRGNAM-$VERSION
+cd $TMP/$PRGNAM
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a LICENSE* README* \
   $PKG/usr/doc/$PRGNAM-$VERSION
