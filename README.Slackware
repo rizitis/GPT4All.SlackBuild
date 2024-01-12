@@ -14,3 +14,8 @@ Its a full GPT4All installation, not only chat, lot of tips exist in /usr/local/
 You are free to maintain it in the SBo way and simply remove my name, no copyrights
 
 Deps are in slack-required file
+
+If you upgrade from older version to new after package build finish just do the old time classic 
+# upgradepkg /tmp/gpt4all-2.6.1-x86_64-1_rtz.txz
+
+This way your old models and localldocs will stay in place ;) 
