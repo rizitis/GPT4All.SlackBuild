@@ -72,8 +72,11 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM
-git clone --recurse-submodules https://github.com/nomic-ai/gpt4all
+
+git clone https://github.com/nomic-ai/gpt4all
 cd $PRGNAM/gpt4all-chat
+git checkout a9c5f535629a362e1bddda7d71018a61c973a83b
+git submodule update --init --recursive
 sed -i '/CMAKE_INSTALL_PREFIX/d' CMakeLists.txt
 
 chown -R root:root .
