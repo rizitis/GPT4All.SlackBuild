@@ -28,7 +28,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=gpt4all			
-VERSION=${VERSION:-2.6.2}	
+VERSION=${VERSION:-2.7.1}	
 BUILD=${BUILD:-1}
 TAG=${TAG:-_rtz}
 PKGTYPE=${PKGTYPE:-txz}
@@ -75,7 +75,7 @@ rm -rf $PRGNAM
 
 git clone https://github.com/nomic-ai/gpt4all
 cd $PRGNAM/gpt4all-chat
-git checkout a5275ea9e7e856eef5814b09c527f682486ec25d
+git checkout f569ae9b224118824f03ee9ad63b80268d1bf5d1
 git submodule update --init --recursive
 sed -i '/CMAKE_INSTALL_PREFIX/d' CMakeLists.txt
 
