@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Set the directory where the AppImage is located
+HERE="$(dirname "$(readlink -f "${0}")")"
+
+# Set the path to the binary executable
+EXECUTABLE="${HERE}/usr/bin/chat"
+
+# Set the path to the libraries
+LIB_DIR="${HERE}/usr/lib"
+
+# Append '/usr/lib64' to LIB_DIR if it's available
+if [ -d "${HERE}/usr/lib64" ]; then
+    LIB_DIR="${LIB_DIR}:${HERE}/usr/lib64"
+fi
+
+# Set the LD_LIBRARY_PATH to include the necessary libraries
+export LD_LIBRARY_PATH="${LIB_DIR}:${LD_LIBRARY_PATH}"
+
+# Execute the binary with any command line arguments passed to the AppRun script
+exec "${EXECUTABLE}" "$@"
+

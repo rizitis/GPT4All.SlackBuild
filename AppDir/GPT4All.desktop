@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=./AppRun
+Name=GPT4All
+Icon=logo-48
+Name[en_US]=GPT4All
+StartupNotify=true
+Categories=Office;
+
