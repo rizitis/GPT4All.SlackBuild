@@ -27,9 +27,9 @@
 
 cd $(dirname $0) ; CWD=$(pwd)
 
-CHECKOUT=d7c47fb6f7bb101f69e171d606ab4b4941a74cf8
+CHECKOUT=0b63ad5eff4d79a5b015c6765efdce210bc476f9
 PRGNAM=gpt4all			
-VERSION=${VERSION:-2.7.5}	
+VERSION=${VERSION:-2.8.0}	
 BUILD=${BUILD:-1}
 TAG=${TAG:-_rtz}
 PKGTYPE=${PKGTYPE:-txz}
@@ -99,6 +99,7 @@ cd build
         -DKOMPUTE_OPT_USE_BUILT_IN_FMT=OFF \
         -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER=OFF \
         -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG=OFF \
+        -DLLMODEL_CUDA=OFF \
     -DCMAKE_BUILD_TYPE=Release ..
   make "$JOBS"
 make install/strip DESTDIR=$PKG
