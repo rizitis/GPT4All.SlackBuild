@@ -1,4 +1,6 @@
-![app](https://raw.githubusercontent.com/rizitis/GPT4All.SlackBuild/main/2.7.2.png)
+![app](https://raw.githubusercontent.com/rizitis/GPT4All.SlackBuild/main/3.0.0.png)
+
+![app](https://raw.githubusercontent.com/rizitis/GPT4All.SlackBuild/main/3.0.0.png)
 
 Open-source large language models, run locally on your CPU and nearly any GPU.
 
