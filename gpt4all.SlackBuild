@@ -29,7 +29,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 CHECKOUT=4c26726f3e27dcf9b6e47faecd7bc005d0d918e2
 PRGNAM=gpt4all			
-VERSION=${VERSION:-2.8.0}	
+VERSION=${VERSION:-3.0.0}	
 BUILD=${BUILD:-1}
 TAG=${TAG:-_rtz}
 PKGTYPE=${PKGTYPE:-txz}
