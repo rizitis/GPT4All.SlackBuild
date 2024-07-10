@@ -10,6 +10,7 @@ Open-source large language models, run locally on your CPU and nearly any GPU.
 HOWTO:
 
 DOCS: https://docs.gpt4all.io/index.html
+COOKBOOK: https://docs.gpt4all.io/gpt4all_desktop/cookbook/use-local-ai-models-to-privately-chat-with-google-drive.html#connect-google-drive-to-localdocs
 
 DISCORD: https://discord.gg/nomic-ai-1076964370942267462
 
