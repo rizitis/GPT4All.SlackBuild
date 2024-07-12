@@ -27,9 +27,9 @@
 
 cd $(dirname $0) ; CWD=$(pwd)
 
-CHECKOUT=4c26726f3e27dcf9b6e47faecd7bc005d0d918e2
+CHECKOUT=66a255015f27e8cd5ed0ea111cb9ec257dd37efa
 PRGNAM=gpt4all			
-VERSION=${VERSION:-3.0.0}	
+VERSION=${VERSION:-66a255015f27e8cd5ed0ea111cb9ec257dd37efa.translate.el_GR}	
 BUILD=${BUILD:-1}
 TAG=${TAG:-_rtz}
 PKGTYPE=${PKGTYPE:-txz}
@@ -79,6 +79,8 @@ cd $PRGNAM/gpt4all-chat
 git checkout "$CHECKOUT"
 git submodule update --init --recursive
 #sed -i '/CMAKE_INSTALL_PREFIX/d' CMakeLists.txt
+sleep 3
+cat $CWD/gpt4all_el_GR.ts > translations/gpt4all_en.ts || exit
 
 chown -R root:root .
 find -L . \
@@ -89,21 +91,21 @@ find -L . \
 
 mkdir -p build
 cd build
- cmake \
+cmake -Wno-dev \
     -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
     -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
     -DCMAKE_INSTALL_PREFIX=/usr/local/bin/GPT4All \
     -DLIB_SUFFIX=${LIBDIRSUFFIX} \
     -DKOMPUTE_OPT_BUILD_SHADERS=ON \
-        -DKOMPUTE_OPT_DISABLE_VULKAN_VERSION_CHECK=ON \
-        -DKOMPUTE_OPT_USE_BUILT_IN_FMT=OFF \
-        -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER=OFF \
-        -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG=OFF \
-        -DLLMODEL_KOMPUTE=ON \
-        -DLLMODEL_CUDA=OFF \
-        -DLLMODEL_ROCM=OFF \
+    -DKOMPUTE_OPT_DISABLE_VULKAN_VERSION_CHECK=ON \
+    -DKOMPUTE_OPT_USE_BUILT_IN_FMT=OFF \
+    -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER=OFF \
+    -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG=OFF \
+    -DLLMODEL_KOMPUTE=ON \
+    -DLLMODEL_CUDA=OFF \
+    -DLLMODEL_ROCM=OFF \
     -DCMAKE_BUILD_TYPE=Release ..
-  make "$JOBS"
+make "$JOBS"
 make install/strip DESTDIR=$PKG
 
 cd $TMP/$PRGNAM
