@@ -634,7 +634,7 @@
         <location filename="../chat.h" line="70"/>
         <location filename="../chat.cpp" line="25"/>
         <source>New Chat</source>
-        <translation>Νέα Συνομοιλία</translation>
+        <translation>Νέα συνομιλία</translation>
     </message>
     <message>
         <location filename="../chat.cpp" line="38"/>
@@ -672,13 +672,13 @@
         <location filename="../qml/ChatDrawer.qml" line="49"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="49"/>
         <source>＋ New Chat</source>
-        <translation>＋ Νέα Συνομοιλία</translation>
+        <translation>＋ Νέα συνομιλία</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="50"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="50"/>
         <source>Create a new chat</source>
-        <translation>Δημιουργία Νέας Συνομοιλίας</translation>
+        <translation>Δημιουργία Νέας συνομιλίας</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="199"/>
@@ -690,7 +690,7 @@
         <location filename="../qml/ChatDrawer.qml" line="216"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="216"/>
         <source>Edit chat name</source>
-        <translation>Επεξεργασία ονόματος συνομοιλίας</translation>
+        <translation>Επεξεργασία ονόματος συνομιλίας</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="229"/>
@@ -702,7 +702,7 @@
         <location filename="../qml/ChatDrawer.qml" line="246"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="246"/>
         <source>Delete chat</source>
-        <translation>Διαγραφή συνομοιλίας</translation>
+        <translation>Διαγραφή συνομιλίας</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="283"/>
@@ -720,7 +720,7 @@
         <location filename="../qml/ChatDrawer.qml" line="317"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="317"/>
         <source>List of chats</source>
-        <translation>Λίστα συνομοιλιών</translation>
+        <translation>Λίστα συνομιλιών</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="318"/>
@@ -926,7 +926,7 @@
         <location filename="../qml/ChatView.qml" line="565"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatView.qml" line="565"/>
         <source>add collections of documents to the chat</source>
-        <translation>εισαγωγή συλλογών εγγράφων στην συνομοιλία</translation>
+        <translation>εισαγωγή συλλογών εγγράφων στην συνομιλία</translation>
     </message>
     <message>
         <location filename="../qml/ChatView.qml" line="705"/>
@@ -1116,7 +1116,7 @@ model to get started</source>
         <location filename="../qml/ChatView.qml" line="1449"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatView.qml" line="1449"/>
         <source>Copy chat session to clipboard</source>
-        <translation>Αντιγραφή συνομοιλίας στο πρόχειρο</translation>
+        <translation>Αντιγραφή συνομιλίας στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../qml/ChatView.qml" line="1475"/>
@@ -1248,19 +1248,19 @@ model to get started</source>
         <location filename="../qml/HomeView.qml" line="66"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="66"/>
         <source>Start chatting</source>
-        <translation>Αρχίστε συνομοιλία</translation>
+        <translation>Αρχίστε συνομιλία</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="81"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="81"/>
         <source>Start Chatting</source>
-        <translation>Αρχή συνομοιλίας</translation>
+        <translation>Αρχή συνομιλίας</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="82"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="82"/>
         <source>Chat with any LLM</source>
-        <translation>Συνομοιλία με κάποιο LLM</translation>
+        <translation>συνομιλία με κάποιο LLM</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="92"/>
@@ -1272,7 +1272,7 @@ model to get started</source>
         <location filename="../qml/HomeView.qml" line="93"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="93"/>
         <source>Chat with your local files</source>
-        <translation>Συνομοιλήστε με τα τοπικά σας έγγραφα</translation>
+        <translation>Συνομιλήστε με τα τοπικά σας έγγραφα</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="103"/>
@@ -2702,7 +2702,7 @@ model release that uses your data!</source>
         <location filename="../main.qml" line="166"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="166"/>
         <source>Saving chats.</source>
-        <translation>Αποθήκευση συνομοιλιών.</translation>
+        <translation>Αποθήκευση συνομιλιών.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="177"/>
@@ -2750,7 +2750,7 @@ model release that uses your data!</source>
         <location filename="../main.qml" line="275"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="275"/>
         <source>Chats</source>
-        <translation>Συνομοιλίες</translation>
+        <translation>Διάλογοι</translation>
     </message>
     <message>
         <location filename="../main.qml" line="300"/>
