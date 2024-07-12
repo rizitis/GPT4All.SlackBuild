@@ -106,7 +106,7 @@
         <location filename="../qml/AddModelView.qml" line="97"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/AddModelView.qml" line="97"/>
         <source>Searching · </source>
-        <translation>Έρευνα </translation>
+        <translation>Αναζήτηση · </translation>
     </message>
     <message>
         <location filename="../qml/AddModelView.qml" line="167"/>
@@ -130,7 +130,7 @@
         <location filename="../qml/AddModelView.qml" line="186"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/AddModelView.qml" line="186"/>
         <source>Likes</source>
-        <translation>Μου αρέσουν</translation>
+        <translation>Αγαπημένα</translation>
     </message>
     <message>
         <location filename="../qml/AddModelView.qml" line="186"/>
@@ -517,7 +517,7 @@
         <location filename="../qml/ApplicationSettings.qml" line="200"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ApplicationSettings.qml" line="200"/>
         <source>The preferred model for new chats. Also used as the local server fallback.</source>
-        <translation>Το προτιμώμενο μοντέλο για νέες συνομιλίες. Χρησιμοποιείται επίσης ως εναλλακτικός τοπικός διακομιστής.</translation>
+        <translation>Το προτιμώμενο μοντέλο για νέες διάλογοι. Χρησιμοποιείται επίσης ως εναλλακτικός τοπικός διακομιστής.</translation>
     </message>
     <message>
         <location filename="../qml/ApplicationSettings.qml" line="232"/>
@@ -553,7 +553,7 @@
         <location filename="../qml/ApplicationSettings.qml" line="275"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ApplicationSettings.qml" line="275"/>
         <source>Send chats and feedback to the GPT4All Open-Source Datalake.</source>
-        <translation>Στείλτε συνομιλίες και σχόλια στο GPT4All Open-Source Datalake.</translation>
+        <translation>Στείλτε διάλογοι και σχόλια στο GPT4All Open-Source Datalake.</translation>
     </message>
     <message>
         <location filename="../qml/ApplicationSettings.qml" line="308"/>
@@ -583,7 +583,7 @@
         <location filename="../qml/ApplicationSettings.qml" line="353"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ApplicationSettings.qml" line="353"/>
         <source>Save the chat model&apos;s state to disk for faster loading. WARNING: Uses ~2GB per chat.</source>
-        <translation>Αποθηκεύστε την κατάσταση του μοντέλου συνομιλίας στο δίσκο για ταχύτερη φόρτωση. ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Χρησιμοποιεί ~2 GB ανά συνομιλία.</translation>
+        <translation>Αποθηκεύστε την κατάσταση διαλόγου του μοντέλου στο δίσκο για ταχύτερη φόρτωση. ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Χρησιμοποιεί ~2 GB ανά συνομιλία.</translation>
     </message>
     <message>
         <location filename="../qml/ApplicationSettings.qml" line="369"/>
@@ -634,7 +634,7 @@
         <location filename="../chat.h" line="70"/>
         <location filename="../chat.cpp" line="25"/>
         <source>New Chat</source>
-        <translation>Νέα συνομιλία</translation>
+        <translation>Νέος Διάλογος</translation>
     </message>
     <message>
         <location filename="../chat.cpp" line="38"/>
@@ -672,13 +672,13 @@
         <location filename="../qml/ChatDrawer.qml" line="49"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="49"/>
         <source>＋ New Chat</source>
-        <translation>＋ Νέα συνομιλία</translation>
+        <translation>＋ Νέος Διάλογος</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="50"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="50"/>
         <source>Create a new chat</source>
-        <translation>Δημιουργία Νέας συνομιλίας</translation>
+        <translation>Δημιουργία Νέας διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="199"/>
@@ -690,19 +690,19 @@
         <location filename="../qml/ChatDrawer.qml" line="216"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="216"/>
         <source>Edit chat name</source>
-        <translation>Επεξεργασία ονόματος συνομιλίας</translation>
+        <translation>Επεξεργασία ονόματος διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="229"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="229"/>
         <source>Save chat name</source>
-        <translation>Αποθήκευση ονόματος συνομιλίας</translation>
+        <translation>Αποθήκευση ονόματος διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="246"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatDrawer.qml" line="246"/>
         <source>Delete chat</source>
-        <translation>Διαγραφή συνομιλίας</translation>
+        <translation>Διαγραφή διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/ChatDrawer.qml" line="283"/>
@@ -832,13 +832,13 @@
         <location filename="../qml/ChatView.qml" line="231"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatView.qml" line="231"/>
         <source>Chat panel</source>
-        <translation>Πίνακας συνομιλίας</translation>
+        <translation>Πίνακας διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/ChatView.qml" line="232"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatView.qml" line="232"/>
         <source>Chat panel with options</source>
-        <translation>Πίνακας συνομιλίας με επιλογές</translation>
+        <translation>Πίνακας διαλόγου με επιλογές</translation>
     </message>
     <message>
         <location filename="../qml/ChatView.qml" line="339"/>
@@ -1110,13 +1110,13 @@ model to get started</source>
         <location filename="../qml/ChatView.qml" line="1428"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatView.qml" line="1428"/>
         <source>Erase and reset chat session</source>
-        <translation>Διαγραφή και επαναφορά συνομιλίας</translation>
+        <translation>Διαγραφή και επαναφορά διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/ChatView.qml" line="1449"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ChatView.qml" line="1449"/>
         <source>Copy chat session to clipboard</source>
-        <translation>Αντιγραφή συνομιλίας στο πρόχειρο</translation>
+        <translation>Αντιγραφή διαλόγου στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../qml/ChatView.qml" line="1475"/>
@@ -1227,7 +1227,7 @@ model to get started</source>
         <location filename="../qml/CollectionsDrawer.qml" line="139"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/CollectionsDrawer.qml" line="139"/>
         <source>Select a collection to make it available to the chat model.</source>
-        <translation>Επιλέξτε μια συλλογή για να την καταστήσετε διαθέσιμη στο μοντέλο συνομιλίας.</translation>
+        <translation>Επιλέξτε μια συλλογή για να την καταστήσετε διαθέσιμη στο μοντέλο διαλόγου.</translation>
     </message>
 </context>
 <context>
@@ -1242,25 +1242,25 @@ model to get started</source>
         <location filename="../qml/HomeView.qml" line="56"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="56"/>
         <source>The privacy-first LLM chat application</source>
-        <translation>Η εφαρμογή συνομιλίας LLM με στόχο την προστασία της ιδιωτικής ζωής</translation>
+        <translation>Η εφαρμογή διαλόγου LLM με στόχο την προστασία της ιδιωτικής ζωής</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="66"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="66"/>
         <source>Start chatting</source>
-        <translation>Αρχίστε συνομιλία</translation>
+        <translation>Αρχίστε διάλογο</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="81"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="81"/>
         <source>Start Chatting</source>
-        <translation>Αρχή συνομιλίας</translation>
+        <translation>Αρχή διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="82"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/HomeView.qml" line="82"/>
         <source>Chat with any LLM</source>
-        <translation>συνομιλία με κάποιο LLM</translation>
+        <translation>Διάλογο με κάποιο LLM</translation>
     </message>
     <message>
         <location filename="../qml/HomeView.qml" line="92"/>
@@ -1664,7 +1664,7 @@ model to get started</source>
     <message>
         <location filename="../modellist.cpp" line="1503"/>
         <source>&lt;ul&gt;&lt;li&gt;Requires personal OpenAI API key.&lt;/li&gt;&lt;li&gt;WARNING: Will send your chats to OpenAI!&lt;/li&gt;&lt;li&gt;Your API key will be stored on disk&lt;/li&gt;&lt;li&gt;Will only be used to communicate with OpenAI&lt;/li&gt;&lt;li&gt;You can apply for an API key &lt;a href=&quot;https://platform.openai.com/account/api-keys&quot;&gt;here.&lt;/a&gt;&lt;/li&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;Απαιτεί προσωπικό κλειδί API του OpenAI.&lt;/li&gt;&lt;li&gt;ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Θα στείλει τις συνομιλίες σας στο OpenAI!&lt;/li&gt;&lt;li&gt;Το κλειδί σας API θα αποθηκευτεί στο δίσκο&lt;/li&gt;&lt;li&gt;Θα χρησιμοποιείται μόνο για την επικοινωνία με το OpenAI&lt;/li&gt;&lt;li&gt;Μπορείτε να υποβάλετε αίτηση για ένα κλειδί API &lt;a href=&quot;https://platform.openai.com/account/api-keys&quot;&gt;εδώ.&lt;/a&gt;&lt;/li&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;Απαιτεί προσωπικό κλειδί API του OpenAI.&lt;/li&gt;&lt;li&gt;ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Θα στείλει τις διάλογοι σας στο OpenAI!&lt;/li&gt;&lt;li&gt;Το κλειδί σας API θα αποθηκευτεί στο δίσκο&lt;/li&gt;&lt;li&gt;Θα χρησιμοποιείται μόνο για την επικοινωνία με το OpenAI&lt;/li&gt;&lt;li&gt;Μπορείτε να υποβάλετε αίτηση για ένα κλειδί API &lt;a href=&quot;https://platform.openai.com/account/api-keys&quot;&gt;εδώ.&lt;/a&gt;&lt;/li&gt;</translation>
     </message>
     <message>
         <location filename="../modellist.cpp" line="1522"/>
@@ -1684,7 +1684,7 @@ model to get started</source>
     <message>
         <location filename="../modellist.cpp" line="1562"/>
         <source>&lt;ul&gt;&lt;li&gt;Requires personal Mistral API key.&lt;/li&gt;&lt;li&gt;WARNING: Will send your chats to Mistral!&lt;/li&gt;&lt;li&gt;Your API key will be stored on disk&lt;/li&gt;&lt;li&gt;Will only be used to communicate with Mistral&lt;/li&gt;&lt;li&gt;You can apply for an API key &lt;a href=&quot;https://console.mistral.ai/user/api-keys&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;Απαιτεί προσωπικό κλειδί API Mistral.&lt;/li&gt;&lt;li&gt;ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Θα στείλει τις συνομιλίες σας στο Mistral!&lt;/li&gt;&lt;li&gt;Το κλειδί σας API θα αποθηκευτεί στο δίσκο&lt;/li&gt;&lt;li&gt;Θα χρησιμοποιείται μόνο για την επικοινωνία με το Mistral&lt;/li&gt;&lt;li&gt;Μπορείτε να υποβάλετε αίτηση για ένα κλειδί API &lt;a href=&quot;https://console.mistral.ai/user/api-keys&quot;&gt;εδώ&lt;/a&gt;.&lt;/li&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;Απαιτεί προσωπικό κλειδί API Mistral.&lt;/li&gt;&lt;li&gt;ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Θα στείλει τις διάλογοι σας στο Mistral!&lt;/li&gt;&lt;li&gt;Το κλειδί σας API θα αποθηκευτεί στο δίσκο&lt;/li&gt;&lt;li&gt;Θα χρησιμοποιείται μόνο για την επικοινωνία με το Mistral&lt;/li&gt;&lt;li&gt;Μπορείτε να υποβάλετε αίτηση για ένα κλειδί API &lt;a href=&quot;https://console.mistral.ai/user/api-keys&quot;&gt;εδώ&lt;/a&gt;.&lt;/li&gt;</translation>
     </message>
     <message>
         <location filename="../modellist.cpp" line="1581"/>
@@ -1998,7 +1998,7 @@ NOTE: Does not take effect until you reload the model.</source>
         <location filename="../qml/ModelsView.qml" line="85"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/ModelsView.qml" line="85"/>
         <source>Locally installed chat models</source>
-        <translation>Τοπικά εγκατεστημένα μοντέλα συνομιλίας</translation>
+        <translation>Τοπικά εγκατεστημένα μοντέλα διαλόγου</translation>
     </message>
     <message>
         <location filename="../qml/ModelsView.qml" line="143"/>
@@ -2242,7 +2242,7 @@ NOTE: Does not take effect until you reload the model.</source>
         <location filename="../qml/NetworkDialog.qml" line="39"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/NetworkDialog.qml" line="39"/>
         <source>Contribute data to the GPT4All Opensource Datalake.</source>
-        <translation>Στείλτε συνομιλίες και σχόλια στο GPT4All Open-Source Datalake.</translation>
+        <translation>Στείλτε διάλογοι και σχόλια στο GPT4All Open-Source Datalake.</translation>
     </message>
     <message>
         <location filename="../qml/NetworkDialog.qml" line="55"/>
@@ -2256,7 +2256,7 @@ NOTE: By turning on this feature, you will be sending your data to the GPT4All O
 
 Όταν ένα μοντέλο του GPT4All σας απαντήσει και έχετε επιλέξει να συμμετάσχετε, η συνομιλία σας θα αποστέλλεται στο GPT4All Open Source Datalake. Επιπλέον, μπορείτε να κάνετε like/dislike στην απάντησή του. Εάν δεν σας αρέσει μια απάντηση, μπορείτε να προτείνετε μια εναλλακτική απάντηση. Τα δεδομένα αυτά θα συλλεχθούν και θα συγκεντρωθούν στο GPT4All Datalake.
 
-ΣΗΜΕΙΩΣΗ: Ενεργοποιώντας αυτή τη λειτουργία, θα στείλετε τα δεδομένα σας στο GPT4All Open Source Datalake. Δεν θα πρέπει να έχετε καμία προσδοκία απορρήτου συνομιλίας όταν είναι ενεργοποιημένη αυτή η λειτουργία. Θα πρέπει, ωστόσο, να έχετε την προσδοκία μιας προαιρετικής αναφοράς, εάν το επιθυμείτε. Τα δεδομένα συνομιλίας σας θα είναι ανοιχτά διαθέσιμα για να τα κατεβάσει ο καθένας και θα χρησιμοποιηθούν από τη Nomic AI για τη βελτίωση μελλοντικών μοντέλων GPT4All. Η Nomic AI θα διατηρήσει όλες τις πληροφορίες απόδοσης που συνδέονται με τα δεδομένα σας και θα αναφέρεστε ως συντελεστής σε κάθε έκδοση μοντέλου GPT4All που χρησιμοποιεί τα δεδομένα σας!</translation>
+ΣΗΜΕΙΩΣΗ: Ενεργοποιώντας αυτή τη λειτουργία, θα στείλετε τα δεδομένα σας στο GPT4All Open Source Datalake. Δεν θα πρέπει να έχετε καμία προσδοκία απορρήτου διαλόγου όταν είναι ενεργοποιημένη αυτή η λειτουργία. Θα πρέπει, ωστόσο, να έχετε την προσδοκία μιας προαιρετικής αναφοράς, εάν το επιθυμείτε. Τα δεδομένα διαλόγου σας θα είναι ανοιχτά διαθέσιμα για να τα κατεβάσει ο καθένας και θα χρησιμοποιηθούν από τη Nomic AI για τη βελτίωση μελλοντικών μοντέλων GPT4All. Η Nomic AI θα διατηρήσει όλες τις πληροφορίες απόδοσης που συνδέονται με τα δεδομένα σας και θα αναφέρεστε ως συντελεστής σε κάθε έκδοση μοντέλου GPT4All που χρησιμοποιεί τα δεδομένα σας!</translation>
     </message>
     <message>
         <location filename="../qml/NetworkDialog.qml" line="63"/>
@@ -2396,7 +2396,7 @@ NOTE: By turning on this feature, you will be sending your data to the GPT4All O
         <location filename="../qml/StartupDialog.qml" line="50"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="50"/>
         <source>Welcome!</source>
-        <translation>Καλώς ήρθατε!</translation>
+        <translation>Καλώς Ήρθατε!</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="67"/>
@@ -2443,23 +2443,32 @@ an expectation of an optional attribution if you wish. Your chat data will be op
 to download and will be used by Nomic AI to improve future GPT4All models. Nomic AI will retain all
 attribution information attached to your data and you will be credited as a contributor to any GPT4All
 model release that uses your data!</source>
-        <translation>Ενεργοποιώντας αυτή τη λειτουργία, θα μπορείτε να συμμετέχετε στη δημοκρατική διαδικασία εκπαίδευσης ενός μεγάλου γλωσσικού μοντέλου, συνεισφέροντας δεδομένα για μελλοντικές βελτιώσεις του μοντέλου.
+        <translation>### Για ανώνυμες αναλύσεις χρήσης και καταγραφή δεδομένων
+Ενεργοποιώντας αυτές τις λειτουργίες, θα μπορείτε να συμμετέχετε στη δημοκρατική διαδικασία της εκπαίδευσης ενός
+μεγάλου γλωσσικού μοντέλου, συνεισφέροντας δεδομένα για μελλοντικές βελτιώσεις του μοντέλου.
 
-Όταν ένα μοντέλο του GPT4All σας απαντήσει και έχετε επιλέξει να συμμετάσχετε, η συνομιλία σας θα αποστέλλεται στο GPT4All Open Source Datalake. Επιπλέον, μπορείτε να κάνετε like/dislike στην απάντησή του. Εάν δεν σας αρέσει μια απάντηση, μπορείτε να προτείνετε μια εναλλακτική απάντηση. Τα δεδομένα αυτά θα συλλεχθούν και θα συγκεντρωθούν στο GPT4All Datalake.
+Όταν ένα μοντέλο του GPT4All σας απαντά και έχετε επιλέξει να συμμετάσχετε, η συνομιλία σας θα αποστέλλεται στο GPT4All
+Open Source Datalake. Επιπλέον, μπορείτε να κάνετε like/dislike στην απάντησή του. Εάν δεν σας αρέσει μια απάντηση, μπορείτε
+μπορείτε να προτείνετε μια εναλλακτική απάντηση. Τα δεδομένα αυτά θα συλλεχθούν και θα συγκεντρωθούν στο GPT4All Datalake.
 
-ΣΗΜΕΙΩΣΗ: Ενεργοποιώντας αυτή τη λειτουργία, θα στείλετε τα δεδομένα σας στο GPT4All Open Source Datalake. Δεν θα πρέπει να έχετε καμία προσδοκία απορρήτου συνομιλίας όταν είναι ενεργοποιημένη αυτή η λειτουργία. Θα πρέπει, ωστόσο, να έχετε την προσδοκία μιας προαιρετικής αναφοράς, εάν το επιθυμείτε. Τα δεδομένα συνομιλίας σας θα είναι ανοιχτά διαθέσιμα για να τα κατεβάσει ο καθένας και θα χρησιμοποιηθούν από τη Nomic AI για τη βελτίωση μελλοντικών μοντέλων GPT4All. Η Nomic AI θα διατηρήσει όλες τις πληροφορίες απόδοσης που συνδέονται με τα δεδομένα σας και θα αναφέρεστε ως συντελεστής σε κάθε έκδοση μοντέλου GPT4All που χρησιμοποιεί τα δεδομένα σας!</translation>
+ΣΗΜΕΙΩΣΗ: Ενεργοποιώντας αυτή τη λειτουργία, θα στέλνετε τα δεδομένα σας στο GPT4All Open Source Datalake.
+Δεν θα πρέπει να έχετε καμία προσδοκία απορρήτου συνομιλίας όταν είναι ενεργοποιημένη αυτή η λειτουργία. Θα πρέπει, ωστόσο, να έχετε
+προσδοκία μιας προαιρετικής αναφοράς, εάν το επιθυμείτε. Τα δεδομένα συνομιλίας σας θα είναι ανοιχτά διαθέσιμα για οποιονδήποτε
+να τα κατεβάσει και θα χρησιμοποιηθούν από τη Nomic AI για τη βελτίωση μελλοντικών μοντέλων GPT4All. Η Nomic AI θα διατηρήσει όλα τα
+τις πληροφορίες απόδοσης που συνδέονται με τα δεδομένα σας και θα αναφέρεστε ως συνεισφέρων σε κάθε GPT4All
+μοντέλο που χρησιμοποιεί τα δεδομένα σας!</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="109"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="109"/>
         <source>Terms for opt-in</source>
-        <translation></translation>
+        <translation>Όροι συγκατάβασης</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="110"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="110"/>
         <source>Describes what will happen when you opt-in</source>
-        <translation></translation>
+        <translation>Περιγραφή τι θα συμβεί με την συγκατάβαση</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="127"/>
@@ -2467,7 +2476,7 @@ model release that uses your data!</source>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="127"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="153"/>
         <source>Opt-in for anonymous usage statistics</source>
-        <translation>Για ανώνυμα στατιστικά στοιχεία χρήσης</translation>
+        <translation>Με ανώνυμα στατιστικά στοιχεία χρήσης</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="150"/>
@@ -2481,7 +2490,7 @@ model release that uses your data!</source>
         <location filename="../qml/StartupDialog.qml" line="154"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="154"/>
         <source>Allow opt-in for anonymous usage statistics</source>
-        <translation>Επιτρέψτε για ανώνυμα στατιστικά στοιχεία χρήσης</translation>
+        <translation>Επιτρέψτε με ανώνυμα στατιστικά στοιχεία χρήσης</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="192"/>
@@ -2495,7 +2504,7 @@ model release that uses your data!</source>
         <location filename="../qml/StartupDialog.qml" line="195"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="195"/>
         <source>Opt-out for anonymous usage statistics</source>
-        <translation>Για ανώνυμα στατιστικά στοιχεία χρήσης</translation>
+        <translation>Με ανώνυμα στατιστικά στοιχεία χρήσης</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="196"/>
@@ -2521,7 +2530,7 @@ model release that uses your data!</source>
         <location filename="../qml/StartupDialog.qml" line="269"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="269"/>
         <source>Allow opt-in anonymous sharing of chats to the GPT4All Datalake</source>
-        <translation>Στείλτε ανώνυμα συνομιλίες και σχόλια στο GPT4All Open-Source Datalake</translation>
+        <translation>Στείλτε ανώνυμα διάλογους και σχόλια στο GPT4All Open-Source Datalake</translation>
     </message>
     <message>
         <location filename="../qml/StartupDialog.qml" line="310"/>
@@ -2533,7 +2542,7 @@ model release that uses your data!</source>
         <location filename="../qml/StartupDialog.qml" line="311"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/qml/StartupDialog.qml" line="311"/>
         <source>Allow opt-out anonymous sharing of chats to the GPT4All Datalake</source>
-        <translation>Επιτρέψτε ανώνυμα  αποστολή σε συνομιλίες και σχόλια στο GPT4All Open-Source Datalake</translation>
+        <translation>Επιτρέψτε ανώνυμα  αποστολή σε διάλογους και σχόλια στο GPT4All Open-Source Datalake</translation>
     </message>
 </context>
 <context>
@@ -2720,31 +2729,31 @@ model release that uses your data!</source>
         <location filename="../main.qml" line="231"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="231"/>
         <source>Home view</source>
-        <translation>Αρχική προβολή</translation>
+        <translation>Αρχική</translation>
     </message>
     <message>
         <location filename="../main.qml" line="232"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="232"/>
         <source>Home view of application</source>
-        <translation>Αρχική προβολή της εφαρμογής</translation>
+        <translation>Προβολή Αρχικής</translation>
     </message>
     <message>
         <location filename="../main.qml" line="240"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="240"/>
         <source>Home</source>
-        <translation>Αρχική σελίδα</translation>
+        <translation>Αρχική</translation>
     </message>
     <message>
         <location filename="../main.qml" line="266"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="266"/>
         <source>Chat view</source>
-        <translation>Προβολή συνομιλίας</translation>
+        <translation>Προβολή Διαλόγων</translation>
     </message>
     <message>
         <location filename="../main.qml" line="267"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="267"/>
         <source>Chat view to interact with models</source>
-        <translation>Προβολή συνομιλίας για αλληλεπίδραση με μοντέλα</translation>
+        <translation>Προβολή διαλόγων για αλληλεπίδραση με μοντέλα</translation>
     </message>
     <message>
         <location filename="../main.qml" line="275"/>
@@ -2772,13 +2781,13 @@ model release that uses your data!</source>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="334"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="343"/>
         <source>LocalDocs</source>
-        <translation>Τοπικά Έγγραφα</translation>
+        <translation>Έγγραφα</translation>
     </message>
     <message>
         <location filename="../main.qml" line="335"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="335"/>
         <source>LocalDocs view to configure and use local docs</source>
-        <translation>Προβολή Τοπικών Εγγράφων για τη ρύθμιση παραμέτρων και τη χρήση τοπικών εγγράφων</translation>
+        <translation>Προβολή Τοπικών Εγγράφων για ρύθμιση παραμέτρων και χρήσης</translation>
     </message>
     <message>
         <location filename="../main.qml" line="368"/>
@@ -2822,7 +2831,7 @@ model release that uses your data!</source>
         <location filename="../main.qml" line="641"/>
         <location filename="../../build_gpt4all-chat_Desktop_Qt_6_7_2/gpt4all/main.qml" line="641"/>
         <source>View of installed models</source>
-        <translation>Προβολή των εγκατεστημένων μοντέλων</translation>
+        <translation>Προβολή εγκατεστημένων μοντέλων</translation>
     </message>
 </context>
 </TS>
